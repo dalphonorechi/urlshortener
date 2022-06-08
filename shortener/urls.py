@@ -6,4 +6,5 @@ urlpatterns=[
     path("allurls/",views.allurls,name="allurls"),
     path("shorturl/<int:id>/",views.get_url,name="shorturl"),
     path("shorten/",views.shorten,name="shorten"),
+    path("delete/",views.delete_all,name="delete"),
 ]

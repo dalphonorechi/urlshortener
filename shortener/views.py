@@ -59,6 +59,10 @@ def get_url(request,id):
         return redirect(url["original_url"])
     except:
         return HttpResponse("Id does not exist")
+def delete_all(request):
+    del_url = UrlObj.objects.all().delete()
+    return HttpResponse(del_url)
+
 
 def save_url(url):
     new_url = UrlObj(original_url=url)
