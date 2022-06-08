@@ -21,6 +21,6 @@ The database used is sqlite.
 <td>Use Mongo DB</td>
 </tr>
 <tr>
-<td>Use react for Front END</td>
+<td>Use react for Front end</td>
 </tr>
 </table>
